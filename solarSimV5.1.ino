@@ -11,6 +11,8 @@ const int highVoltageCheckTime = 5000;
 const int voltageCheckTime = 200;
 bool iterator = false;
 
+//for commit purposes only.
+
 void setup() {
   pinMode(analogPin1, INPUT);
   pinMode(analogPin2, INPUT);
