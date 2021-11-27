@@ -6,10 +6,12 @@ const int ledPin2 = 3;
 const int ledPin3 = 4;
 const int inverterRelay = 7;
 const int threshold1 = 890;
-const int threshold2 = 950;
+const int threshold2 = 900;
 const int highVoltageCheckTime = 5000;
 const int voltageCheckTime = 200;
 bool iterator = false;
+
+
 
 //for commit purposes only.
 
@@ -24,6 +26,7 @@ void setup() {
 }
 
 void loop() {
+
   int analogValue = 0;
   int analogPin = 0;
   int threshold = 0;
